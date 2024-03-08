@@ -1,4 +1,10 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: helm-hooks
+  name: monitoring
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: automation
